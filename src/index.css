@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply font-sans;
+    @apply text-slate-950;
+  }
+}
+
 html,
 body,
 #root,
