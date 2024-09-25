@@ -1,4 +1,3 @@
-// import { Button } from "@/components/ui/button";
 import { Button } from "./components/ui/button";
 
 const App = () => {
@@ -7,7 +6,7 @@ const App = () => {
       <h2 className="text-5xl font-bold">
         Hello From This React Typescript Website
       </h2>
-      <Button>Click Me</Button>
+      <Button>Button</Button>
     </div>
   );
 };
