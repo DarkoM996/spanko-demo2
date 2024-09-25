@@ -6,7 +6,7 @@ const App = () => {
       <h2 className="text-5xl font-bold">
         Hello From This React Typescript Website
       </h2>
-      <Button>Button</Button>
+      <Button>Button Text</Button>
     </div>
   );
 };
