@@ -1,13 +1,11 @@
-import { Button } from "./components/ui/button";
+import Navbar from "./components/ui/Navbar";
+// import { Button } from "./components/ui/ui/button";
 
 const App = () => {
   return (
-    <div className="w-full h-full">
-      <h2 className="text-5xl font-bold">
-        Hello From This React Typescript Website
-      </h2>
-      <Button>Button Text</Button>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 };
 
